@@ -1,0 +1,81 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"patching_rect" : [ 27.488789826631546, 25.246637284755707, 12.0, 11.0 ],
+					"presentation_rect" : [ 35.488789826631546, 32.246637284755707, 12.0, 11.0 ],
+					"presentation" : 1,
+					"id" : "obj-5",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontsize" : 4.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"patching_rect" : [ 10.0, 25.246637284755707, 12.0, 11.0 ],
+					"presentation_rect" : [ 18.0, 32.246637284755707, 12.0, 11.0 ],
+					"presentation" : 1,
+					"id" : "obj-4",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontsize" : 4.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"patching_rect" : [ 27.488789826631546, 10.0, 12.0, 11.0 ],
+					"presentation_rect" : [ 35.488789826631546, 17.0, 12.0, 11.0 ],
+					"presentation" : 1,
+					"id" : "obj-3",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontsize" : 4.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"patching_rect" : [ 10.0, 10.0, 12.0, 11.0 ],
+					"presentation_rect" : [ 18.0, 17.0, 12.0, 11.0 ],
+					"presentation" : 1,
+					"id" : "obj-2",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"fontsize" : 4.0
+				}
+
+			}
+ ],
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-3", "obj-5", "obj-2", "obj-4" ]
+			}
+ ],
+		"appversion" : 		{
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "29 x 26, containing 4 objects",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "frame",
+			"objects" : "comment",
+			"tags" : "",
+			"description" : "29 x 26, containing 4 objects",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAADIAAAAvCAYAAAChd5n0AAAABHNCSVQICAgIfAhkiAAAAFZJREFUaIHtzwEJwDAQwMBtut6/rdVEoaHcKUjemfmfC3ynA3YxUmOkxkiNkRojNUZqjNQYqTFSY6TGSI2RGiM1RmqM1BipMVJjpMZIjZEaIzVGaq4ZWZ58AhHimTkvAAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

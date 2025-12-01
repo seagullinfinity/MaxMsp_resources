@@ -1,0 +1,64 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "mctolist",
+					"patching_rect" : [ 10.0, 10.0, 49.0, 22.0 ],
+					"outlettype" : [ "" ],
+					"id" : "obj-23",
+					"numinlets" : 1,
+					"numoutlets" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "multislider",
+					"patching_rect" : [ 10.0, 38.0, 337.0, 36.0 ],
+					"presentation_rect" : [ 2870.0, 1361.0, 240.0, 39.0 ],
+					"outlettype" : [ "", "" ],
+					"presentation" : 1,
+					"ghostbar" : 7,
+					"id" : "obj-240",
+					"orientation" : 0,
+					"slidercolor" : [ 0.619607843137255, 0.745098039215686, 0.952941176470588, 1.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"parameter_enable" : 0,
+					"bgcolor" : [ 0.101960784313725, 0.101960784313725, 0.101960784313725, 0.0 ]
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"source" : [ "obj-23", 0 ],
+					"destination" : [ "obj-240", 0 ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "337 x 64, containing 2 objects",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mc.tomulstislider",
+			"objects" : "jpatcher, multislider",
+			"tags" : "",
+			"description" : "337 x 64, containing 2 objects",
+			"image" : "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"
+		}
+
+	}
+
+}

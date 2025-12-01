@@ -1,0 +1,1 @@
+this.patcher.wind.scrollto(0,0);
